@@ -57,10 +57,12 @@ contínua executa checagem de tipos, lint, testes e build a cada push ou pull
 request para `main`. O workflow de Pages gera uma versão estática com o caminho
 base do repositório e publica automaticamente após cada push em `main`.
 
-URL pública: [kelvyn-marques-portfolio.kelvynplayer2406.chatgpt.site](https://kelvyn-marques-portfolio.kelvynplayer2406.chatgpt.site)
+URLs públicas:
 
-O endereço do GitHub Pages será criado automaticamente assim que este código
-for enviado a um repositório público com Pages habilitado.
+- [GitHub Pages](https://kelvynmarquess.github.io/portfolio/)
+- [OpenAI Sites](https://kelvyn-marques-portfolio.kelvynplayer2406.chatgpt.site)
+
+Repositório público: [Kelvynmarquess/portfolio](https://github.com/Kelvynmarquess/portfolio)
 
 ## Privacidade
 
