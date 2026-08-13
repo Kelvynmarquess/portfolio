@@ -26,6 +26,10 @@ export const profile = {
     "Profissional de recepção com experiência em hospitalidade, orientado à qualidade do atendimento, à eficiência dos serviços e à satisfação de cada hóspede.",
   about:
     "Busco contribuir para o crescimento do negócio por meio de um atendimento cuidadoso, de práticas de hospitalidade alinhadas às necessidades do mercado e da busca contínua por excelência operacional.",
+  phone: {
+    display: "(85) 985800856",
+    href: "+5585985800856",
+  },
   email: "kelvyn_marques@outlook.com.br",
   resumeUrl: "/curriculo-kelvyn-marques.pdf",
   experiences: [

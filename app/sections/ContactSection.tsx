@@ -14,6 +14,14 @@ export function ContactSection() {
           </p>
         </div>
         <div className="contact-actions">
+          <a
+            aria-label={`Ligar para ${profile.phone.display}`}
+            className="contact-link"
+            href={`tel:${profile.phone.href}`}
+          >
+            <span>Telefone profissional</span>
+            <strong>{profile.phone.display}</strong>
+          </a>
           <a className="contact-link" href={`mailto:${profile.email}`}>
             <span>E-mail profissional</span>
             <strong>{profile.email}</strong>

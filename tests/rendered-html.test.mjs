@@ -47,6 +47,8 @@ test("server-renderiza o portfólio profissional", async () => {
   assert.match(html, /id="formacao"/);
   assert.match(html, /id="contato"/);
   assert.match(html, /href="\/curriculo-kelvyn-marques\.pdf"/);
+  assert.match(html, /href="tel:\+5585985800856"/);
+  assert.match(html, /\(85\) 985800856/);
   assert.match(html, /mailto:kelvyn_marques@outlook\.com\.br/);
   assert.match(html, /https:\/\/portfolio\.example\/og\.png/);
 });
