@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "Kelvyn Marques | Recepção e Hospitalidade";
+const title = "Kelvyn Marques | Atendimento e Tecnologia";
 const description =
-  "Portfólio profissional de Kelvyn Marques, recepcionista com experiência em hospitalidade, atendimento ao hóspede e excelência operacional.";
+  "Profissional com experiência em atendimento presencial e remoto, comunicação em espanhol, facilidade com ferramentas digitais e formação em Engenharia de Software.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headerStore = await headers();
@@ -47,9 +47,9 @@ export async function generateMetadata(): Promise<Metadata> {
       images: [
         {
           url: `${origin}/og.png`,
-          width: 1200,
-          height: 630,
-          alt: "Kelvyn Marques - profissional de recepção e hospitalidade",
+          width: 1731,
+          height: 909,
+          alt: "Kelvyn Marques - profissional de atendimento e tecnologia",
         },
       ],
     },
@@ -93,3 +93,4 @@ export default function RootLayout({
     </html>
   );
 }
+
