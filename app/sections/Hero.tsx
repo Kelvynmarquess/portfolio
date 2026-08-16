@@ -28,18 +28,19 @@ export function Hero() {
         <div className="summary-list">
           <div>
             <span>Atuação</span>
-            <strong>Recepção e hospitalidade</strong>
+            <strong>Atendimento presencial e remoto</strong>
           </div>
           <div>
             <span>Formação atual</span>
-            <strong>Engenharia de Software</strong>
+            <strong>Engenharia de Software — cursando</strong>
           </div>
           <div>
-            <span>Prioridade</span>
-            <strong>Excelência na experiência do hóspede</strong>
+            <span>Diferenciais</span>
+            <strong>Tecnologia e espanhol cotidiano</strong>
           </div>
         </div>
       </aside>
     </section>
   );
 }
+
