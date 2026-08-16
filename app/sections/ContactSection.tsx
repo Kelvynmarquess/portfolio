@@ -9,8 +9,9 @@ export function ContactSection() {
           <p className="eyebrow eyebrow-light">Contato</p>
           <h2 id="contact-title">Vamos conversar?</h2>
           <p>
-            Estou disponível para conversar sobre oportunidades em recepção,
-            hospitalidade e atendimento ao cliente.
+            Estou disponível para conversar sobre oportunidades em atendimento
+            presencial ou remoto e funções que valorizem comunicação,
+            adaptação e tecnologia.
           </p>
         </div>
         <div className="contact-actions">
@@ -32,3 +33,4 @@ export function ContactSection() {
     </section>
   );
 }
+
