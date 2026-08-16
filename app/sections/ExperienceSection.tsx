@@ -12,7 +12,7 @@ export function ExperienceSection() {
         <SectionHeading
           id="experience-title"
           eyebrow="Experiência"
-          title="Trajetória em recepção"
+          title="Trajetória em atendimento"
           description="Experiências profissionais apresentadas da mais recente para a mais antiga."
         />
         <div className="timeline">
@@ -33,3 +33,4 @@ export function ExperienceSection() {
     </section>
   );
 }
+
