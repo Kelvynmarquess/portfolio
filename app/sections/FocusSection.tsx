@@ -11,8 +11,8 @@ export function FocusSection() {
       <SectionHeading
         id="focus-title"
         eyebrow="Como atuo"
-        title="Focos profissionais"
-        description="Princípios presentes no meu objetivo profissional em hospitalidade e atendimento."
+        title="Competências para diferentes contextos"
+        description="Habilidades que aplico em equipes, canais e segmentos diversos."
       />
       <div className="focus-grid">
         {profile.focusGroups.map((group, index) => (
@@ -32,3 +32,4 @@ export function FocusSection() {
     </section>
   );
 }
+
