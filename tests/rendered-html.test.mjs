@@ -43,6 +43,10 @@ test("server-renderiza o portfólio profissional", async () => {
   assert.match(html, /id="inicio"/);
   assert.match(html, /id="sobre"/);
   assert.match(html, /id="experiencia"/);
+  assert.match(html, /Concentrix Brasil/);
+  assert.match(html, /Atendente/);
+  assert.match(html, /Julho de 2025 - dezembro de 2025/);
+  assert.ok(html.indexOf("Concentrix Brasil") < html.indexOf("Mandi Collection"));
   assert.match(html, /id="atuacao"/);
   assert.match(html, /id="formacao"/);
   assert.match(html, /id="contato"/);
@@ -69,3 +73,4 @@ test("inclui os arquivos públicos essenciais", async () => {
     access(new URL("public/og.png", projectRoot)),
   ]);
 });
+
