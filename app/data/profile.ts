@@ -19,13 +19,13 @@ export type FocusGroup = {
 export const profile = {
   name: "Kelvyn Marques",
   initials: "KM",
-  role: "Recepcionista",
-  specialty: "Hospitalidade e atendimento ao hóspede",
-  headline: "Atendimento que transforma estadias em boas experiências.",
+  role: "Profissional de atendimento",
+  specialty: "Atendimento presencial e remoto • Tecnologia • Espanhol",
+  headline: "Comunicação clara, adaptação rápida e facilidade com tecnologia.",
   introduction:
-    "Profissional de recepção com experiência em hospitalidade, orientado à qualidade do atendimento, à eficiência dos serviços e à satisfação de cada hóspede.",
+    "Profissional com experiência em atendimento ao cliente presencial e remoto, comunicação clara e resolução de demandas, preparado para atuar em diferentes segmentos.",
   about:
-    "Busco contribuir para o crescimento do negócio por meio de um atendimento cuidadoso, de práticas de hospitalidade alinhadas às necessidades do mercado e da busca contínua por excelência operacional.",
+    "Tenho facilidade para aprender novos processos, sistemas e ferramentas digitais. Consigo atender e me comunicar em espanhol em situações cotidianas, trabalho bem em equipe e curso Engenharia de Software, formação que amplia minha visão sobre tecnologia.",
   phone: {
     display: "(85) 985800856",
     href: "+5585985800856",
@@ -51,27 +51,27 @@ export const profile = {
   ] satisfies Experience[],
   focusGroups: [
     {
-      title: "Atendimento",
+      title: "Atendimento multicanal",
       items: [
-        "Atendimento ao hóspede",
-        "Qualidade no atendimento",
-        "Satisfação do cliente",
+        "Atendimento presencial",
+        "Atendimento remoto",
+        "Escuta e resolução de demandas",
       ],
     },
     {
-      title: "Operações",
+      title: "Comunicação",
       items: [
-        "Eficiência nos serviços",
-        "Excelência operacional",
-        "Práticas de hospitalidade",
+        "Comunicação clara",
+        "Espanhol em situações cotidianas",
+        "Trabalho em equipe",
       ],
     },
     {
-      title: "Evolução contínua",
+      title: "Tecnologia e aprendizado",
       items: [
-        "Busca por inovação",
-        "Atenção às necessidades do mercado",
-        "Contribuição para resultados",
+        "Facilidade com sistemas e ferramentas digitais",
+        "Adaptação a novos processos",
+        "Engenharia de Software em formação",
       ],
     },
   ] satisfies FocusGroup[],
