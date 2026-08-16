@@ -34,6 +34,11 @@ export const profile = {
   resumeUrl: "/curriculo-kelvyn-marques.pdf",
   experiences: [
     {
+      company: "Concentrix Brasil",
+      role: "Atendente",
+      period: "Julho de 2025 - dezembro de 2025",
+    },
+    {
       company: "Mandi Collection",
       role: "Recepcionista",
       period: "2023 - 2025",
@@ -90,3 +95,4 @@ export const profile = {
 } as const;
 
 export type Profile = typeof profile;
+
