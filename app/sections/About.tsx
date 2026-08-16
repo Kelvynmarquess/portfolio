@@ -7,7 +7,7 @@ export function About() {
       <SectionHeading
         id="about-title"
         eyebrow="Sobre mim"
-        title="Cuidado em cada interação"
+        title="Versatilidade em cada interação"
       />
       <div className="about-grid">
         <p className="about-lead">
@@ -17,10 +17,11 @@ export function About() {
           <p>{profile.about}</p>
           <div className="principle">
             <span aria-hidden="true">01</span>
-            <p>Ouvir, acolher e oferecer uma experiência consistente.</p>
+            <p>Ouvir, compreender e aprender rápido para atender com clareza.</p>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
