@@ -1,9 +1,10 @@
 # Portfólio profissional - Kelvyn Marques
 
-Portfólio e currículo online de Kelvyn Marques, com foco em recepção,
-hospitalidade e atendimento ao hóspede. O projeto reúne apresentação,
-experiência profissional, formação e canais de contato em uma interface
-responsiva e acessível.
+Portfólio e currículo online de Kelvyn Marques, com experiência em atendimento
+presencial e remoto, comunicação em espanhol, facilidade com tecnologia e
+formação em Engenharia de Software. O projeto reúne apresentação, experiência
+profissional, formação e canais de contato em uma interface responsiva e
+acessível.
 
 ## Tecnologias
 
@@ -68,3 +69,4 @@ Repositório público: [Kelvynmarquess/portfolio](https://github.com/Kelvynmarqu
 
 Nenhuma credencial ou chave privada é necessária no cliente. Arquivos de
 ambiente, dependências e artefatos locais de build são ignorados pelo Git.
+
