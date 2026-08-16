@@ -37,9 +37,11 @@ test("server-renderiza o portfólio profissional", async () => {
 
   const html = await response.text();
   assert.match(html, /<html[^>]*lang="pt-BR"/i);
-  assert.match(html, /<title>Kelvyn Marques \| Recepção e Hospitalidade<\/title>/i);
+  assert.match(html, /<title>Kelvyn Marques \| Atendimento e Tecnologia<\/title>/i);
   assert.match(html, /Kelvyn Marques/);
-  assert.match(html, /Recepção e hospitalidade/i);
+  assert.match(html, /Atendimento presencial e remoto/i);
+  assert.match(html, /Espanhol em situações cotidianas/i);
+  assert.match(html, /Engenharia de Software em formação/i);
   assert.match(html, /id="inicio"/);
   assert.match(html, /id="sobre"/);
   assert.match(html, /id="experiencia"/);
@@ -55,6 +57,7 @@ test("server-renderiza o portfólio profissional", async () => {
   assert.match(html, /\(85\) 985800856/);
   assert.match(html, /mailto:kelvyn_marques@outlook\.com\.br/);
   assert.match(html, /https:\/\/portfolio\.example\/og\.png/);
+  assert.doesNotMatch(html, /atendimento ao hóspede|práticas de hospitalidade|experiência do hóspede/i);
 });
 
 test("não publica conteúdo de starter ou placeholders", async () => {
